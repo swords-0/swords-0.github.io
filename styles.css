@@ -52,7 +52,7 @@ h1{
     line-height:1.5;
     animation: slideBottom 1s ease forwards;
     animation-delay:.7s; 
-    text-align:center;
+    
 }
 
 .subtext{line-height:1.3;
@@ -85,9 +85,23 @@ color:black  ;}
 
 span{color:red;}
 
-#fim{
+.pedraovideo {
+    width: 100%;
+    max-width: 300px; 
+    margin-top:30px;
+    margin-bottom:30px;
+  }
+
+#fim,#feitos{
     padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
 }
+
+
 @keyframes slideBottom{
     0%{
 transform:translateY(-100px);
